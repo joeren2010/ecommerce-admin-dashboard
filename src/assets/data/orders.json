@@ -1,0 +1,77 @@
+[
+   {
+      "orderId": 3456789345,
+      "orderDate": "December 03, 2021",
+      "orderStatus": "Pending",
+      "products": [
+         {
+            "productId": 1,
+            "productCode": "PRD-ELE-1054",
+            "productImg": "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX466_.jpg",
+            "productTitle": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+            "productDescription": "Easy upgrade for faster boot-up, shutdown, application load and response",
+            "productCategory": "Electronics",
+            "price": 300,
+            "quantity": 4,
+            "totalPrice": 1200
+         }
+      ],
+      "totalItems": 1,
+      "itemsSubTotal": 1200,
+      "shipmentCharges": 100,
+      "totalAmount": 1300,
+      "paymentStatus": 0,
+      "paymentStatusTitle": "Pending",
+      "paymentMethod": 0,
+      "paymentMethodTitle": "Cash On Delivery (COD)",
+
+      "userId": 1,
+      "name": "John Snow",
+      "email": "jsnow@test.com",
+      "contact": "9849485545",
+      "address": "34 Norway Street"
+   },
+   {
+      "orderId": 3111789345,
+      "orderDate": "April 05 2022",
+      "orderStatus": "Confirm",
+      "products": [
+         {
+            "productId": 1,
+            "productCode": "PRD-ELE-1054",
+            "productImg": "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX466_.jpg",
+            "productTitle": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+            "productDescription": "Easy upgrade for faster boot-up, shutdown, application load and response",
+            "productCategory": "Electronics",
+            "price": 300,
+            "quantity": 4,
+            "totalPrice": 1200
+         },
+         {
+            "productId": 2,
+            "productCode": "PRI-ELE-1054",
+            "productImg": "https://m.media-amazon.com/images/I/61UdeL7a0-L._AC_SX679_.jpg",
+            "productTitle": "HP Deskjet 2755e Wireless Color All-In-One Printer",
+            "productDescription": "Network-Ready, Energy Star Certified, Decal-Printing, Cloud Print Enabled",
+            "productCategory": "Electronics",
+            "price": 6000,
+            "quantity": 4,
+            "totalPrice": 24000
+         }
+      ],
+      "totalItems": 2,
+      "itemsSubTotal": 25200,
+      "shipmentCharges": 100,
+      "totalAmount": 25300,
+      "paymentStatus": 0,
+      "paymentStatusTitle": "Confirm",
+      "paymentMethod": 0,
+      "paymentMethodTitle": "Cash On Delivery (COD)",
+
+      "userId": 2,
+      "name": "Will Smith",
+      "email": "wsmith@test.com",
+      "contact": "42343434545",
+      "address": "301 Houston Street"
+   }
+]

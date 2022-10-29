@@ -1,0 +1,78 @@
+<!-- below are your codes to modify the tables -->
+<div class="container-fluid py-3">
+   <div class="row w-100 m-0">
+      <div class="col">
+         <div class="card shadow-sm">
+            <div class="card-header bg-white border-0">
+               <h4>Users</h4>
+            </div>
+            <div class="table-responsive">
+               <!-- below is modified bootstrap table codes -->
+               <table class="table table-flush m-0">
+                  <thead class="thead-light">
+                     <tr>
+                        <th scope="col">S/N</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Username</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Contact</th>
+                        <th scope="col">Actions</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr *ngFor="let user of usersObservable | async; index as idx">
+                        <th scope="row">{{idx + 1}}</th>
+                        <!-- names used below must match names used in your data table -->
+                        <td>{{user["fullname"]}}</td>
+                        <td>{{user["username"]}}</td>
+                        <td>{{user["email"]}}</td>
+                        <!-- accessing objects within another object -->
+                        <td>{{user["address"]["city"]}}</td>
+                        <!-- another way to access objects inside another object -->
+                        <!-- <td>{{user["address.city"]}}</td> -->
+                        <td>{{user["contact"]}}</td>
+                        <!-- creates an "action" button -->
+                        <td>
+                           <button type="button" class="btn btn-sm btn-dark">View Orders</button>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<!-- here is the original bootstrap code for above table -->
+<!-- <table class="table table-dark">
+   <thead>
+      <tr>
+         <th scope="col">#</th>
+         <th scope="col">First</th>
+         <th scope="col">Last</th>
+         <th scope="col">Handle</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th scope="row">1</th>
+         <td>Mark</td>
+         <td>Otto</td>
+         <td>@mdo</td>
+      </tr>
+      <tr>
+         <th scope="row">2</th>
+         <td>Jacob</td>
+         <td>Thornton</td>
+         <td>@fat</td>
+      </tr>
+      <tr>
+         <th scope="row">3</th>
+         <td>Larry</td>
+         <td>the Bird</td>
+         <td>@twitter</td>
+      </tr>
+   </tbody>
+</table> -->

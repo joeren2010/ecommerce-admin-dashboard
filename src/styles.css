@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.timepicker-overlay {
+   z-index: 1000000 !important;
+}
+
+.timepicker-backdrop-overlay {
+   z-index: 1000000 !important;
+}
+
+/* .bg-modal-overlay {
+   z-index: 1000000 !important;
+} */

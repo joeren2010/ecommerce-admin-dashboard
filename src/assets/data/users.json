@@ -1,0 +1,47 @@
+[
+   {
+      "userId": 1,
+      "username": "John",
+      "fullname": "John Snow",
+      "address": {
+         "street": "34 Norway Street",
+         "city": "Los Angelus",
+         "state": "California",
+         "country": "US",
+         "zipcode": 1400022
+      },
+      "email": "jsnow@test.com",
+      "img": "",
+      "contact": "9849485545"
+   },
+   {
+      "userId": 2,
+      "username": "Will",
+      "fullname": "Will Smith",
+      "address": {
+         "street": "301 Houston Street",
+         "city": "Houston",
+         "state": "Texas",
+         "country": "US",
+         "zipcode": 5566022
+      },
+      "email": "wsmith@test.com",
+      "img": "",
+      "contact": "42343434545"
+   },
+   {
+      "userId": 3,
+      "username": "Aria",
+      "fullname": "Aria Stark",
+      "address": {
+         "street": "301 Chicago Street",
+         "city": "Chicago",
+         "state": "Illinois",
+         "country": "US",
+         "zipcode": 8566022
+      },
+      "email": "astark@test.com",
+      "img": "",
+      "contact": "12228434545"
+   }
+]

@@ -1,0 +1,54 @@
+{
+  "meetings": [
+    {
+      "id": 1,
+      "meetingId": 1,
+      "meetingTopic": "APC Engg - Skyrise",
+      "numPeople": 4,
+      "emailAddress": "jsnow@test.com",
+      "meetingDate": "04/05/2022",
+      "meetingTime": "10:45 AM",
+      "addedOn": "04/05/2022",
+      "meetingDescription": "Status, completions...",
+      "images": [
+        "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX466_.jpg",
+        "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX355_.jpg",
+        "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX450_.jpg",
+        "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX569_.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "meetingId": 2,
+      "meetingTopic": "XYZ Tech - Schools",
+      "numPeople": 12,
+      "emailAddress": "wsmith@test.com",
+      "meetingDate": "06/23/2022",
+      "meetingTime": "05:24 PM",
+      "addedOn": "06/14/2022",
+      "meetingDescription": "Updates, roadblocks...",
+      "images": [
+        "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg",
+        "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg",
+        "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg",
+        "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
